@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameSoldiers">
+      <UniqueIdentifier>{a24ee9c7-bafd-4de9-9c24-f96a9629e88c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameUI">
+      <UniqueIdentifier>{8e49415f-2442-4eab-abe5-0fce3438ddc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameMap">
+      <UniqueIdentifier>{ecec2449-9dea-44b2-aac1-6c53900e711d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameData">
+      <UniqueIdentifier>{f9e349c2-9296-4c9f-8dce-1e26cf1c33b6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\soldiersAI.cpp">
+      <Filter>src\GameSoldiers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\operation.cpp">
+      <Filter>src\GameSoldiers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\soldiers.cpp">
+      <Filter>src\GameSoldiers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cpuAI.cpp">
+      <Filter>src\GameSoldiers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI.cpp">
+      <Filter>src\GameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CreateMap.cpp">
+      <Filter>src\GameMap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameData.cpp">
+      <Filter>src\GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\bullet.cpp">
+      <Filter>src\GameSoldiers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\OperationMap.cpp">
+      <Filter>src\GameMap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game_enum.cpp">
+      <Filter>src\GameSoldiers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MapPit.cpp">
+      <Filter>src\GameMap</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\soldiersAI.h">
+      <Filter>src\GameSoldiers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\operation.h">
+      <Filter>src\GameSoldiers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\soldiers.h">
+      <Filter>src\GameSoldiers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cpuAI.h">
+      <Filter>src\GameSoldiers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI.h">
+      <Filter>src\GameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CreateMap.h">
+      <Filter>src\GameMap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameData.h">
+      <Filter>src\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\bullet.h">
+      <Filter>src\GameSoldiers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\OperationMap.h">
+      <Filter>src\GameMap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game_enum.h">
+      <Filter>src\GameSoldiers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MapPit.h">
+      <Filter>src\GameMap</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
